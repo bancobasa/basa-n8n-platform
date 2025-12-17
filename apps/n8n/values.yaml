@@ -1,3 +1,9 @@
-# Usar valores por defecto del chart n8n
-# Configuración mínima para testing
-n8n: {}
+n8n:
+  ingress:
+    enabled: true
+    className: "kong-gateway"
+    hosts:
+      - host: n8n.test.bancobasa.com.py
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
