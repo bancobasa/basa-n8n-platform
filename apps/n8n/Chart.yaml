@@ -1,0 +1,9 @@
+apiVersion: v2
+name: n8n
+description: n8n workflow automation platform for Banco Basa
+version: 1.0.0
+appVersion: "2.0.2"
+dependencies:
+  - name: n8n
+    version: "1.16.11"
+    repository: https://community-charts.github.io/helm-charts
