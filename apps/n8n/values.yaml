@@ -7,3 +7,9 @@ n8n:
         paths:
           - path: /
             pathType: ImplementationSpecific
+  
+  main:
+    persistence:
+      enabled: true
+      size: 10Gi
+      accessMode: ReadWriteOnce
