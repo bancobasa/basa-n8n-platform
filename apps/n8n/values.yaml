@@ -3,7 +3,7 @@ n8n:
     enabled: true
     className: "kong-gateway"
     hosts:
-      - host: n8n.test.bancobasa.com.py
+      - host: n8n.qa.bancobasa.com.py
         paths:
           - path: /
             pathType: ImplementationSpecific
